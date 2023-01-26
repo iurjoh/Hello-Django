@@ -1,3 +1,8 @@
+import os
+
+if os.path.isfile("env.py"):
+    import env
+
 """
 Django settings for django_todo project.
 
@@ -28,7 +33,7 @@ SECRET_KEY = 'django-insecure-ja$9o$jnmb&%9bz2v(=oop=*%1hpi0x!pb01e06c$r^(55sbcq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["iurjoh-django-todo-app.herokuapp.com"]
 
 
 # Application definition
